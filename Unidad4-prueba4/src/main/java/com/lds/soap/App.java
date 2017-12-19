@@ -15,7 +15,7 @@ public class App {
 		GetCitiesByCountry getCitiesByCountry = new GetCitiesByCountry();
 		getCitiesByCountry.setCountryName("Colombia");
 		GetCitiesByCountryResponse getCitiesByCountryResponse = globalWeatherStub.getCitiesByCountry(getCitiesByCountry);
-		//System.out.println(getCitiesByCountryResponse.getGetCitiesByCountryResult());
+		System.out.println(getCitiesByCountryResponse.getGetCitiesByCountryResult());
 
 		GetWeather getWeather = new GetWeather();
 		getWeather.setCityName("Medellin");
